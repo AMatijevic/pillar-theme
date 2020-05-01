@@ -7313,3 +7313,27 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
   .resume-header .picture {
     width: 120px;
     border-radius: 4px; } }
+
+.extra-margin-top {
+  margin-top: 64px; }
+
+@media print {
+  .resume-wrapper {
+    padding-top: 0; }
+  .resume-wrapper-inner {
+    box-shadow: none !important;
+    width: 100%;
+    max-width: none;
+    position: relative; }
+  .resume-body {
+    margin: 0 30px; }
+  .resume-header {
+    width: 100%;
+    max-width: none; }
+  .row {
+    flex-wrap: nowrap; }
+  .page-break-before {
+    page-break-before: always;
+    margin-top: 80px; }
+  .footer {
+    display: none; } }
