@@ -265,8 +265,12 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 @media print {
+    body {
+        background-color: white;
+    }
     .resume-wrapper {
         padding-top: 0;
+        padding-bottom: 0;
     }
     .resume-wrapper-inner {
         box-shadow: none !important;
@@ -275,11 +279,16 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
         position: relative;
     }
     .resume-body {
-        margin: 0 30px;
+        margin: 0 70px;
+        padding-top: 0 !important;
     }
     .resume-header {
         width: 100%;
         max-width: none;
+    }
+
+    .resume-section {
+        margin-top: 70px;
     }
     .row {
         flex-wrap: nowrap;
