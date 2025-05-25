@@ -10,6 +10,19 @@
             "command": "node-sass ./assets/scss/pillar-1.scss ./assets/css/pillar-1.css",
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "tsc: build - tsconfig.json"
         }
     ]
   }
