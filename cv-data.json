@@ -1,0 +1,149 @@
+{
+  "personalInfo": {
+    "name": "Andrej Matijevic",
+    "title": "Senior Full Stack Engineer",
+    "contact": {
+      "email": "andrej.matijevic@gmail.com",
+      "phone": "+49 174 4 666 965"
+    },
+    "social": [
+      {"platform": "linkedin", "link": "https://www.linkedin.com/in/amatijevic/", "text": "linkedin.com/in/amatijevic", "icon": "fab fa-linkedin-in fa-fw"},
+      {"platform": "github", "link": "https://github.com/AMatijevic", "text": "github.com/AMatijevic", "icon": "fab fa-github-alt fa-fw"},
+      {"platform": "twitter", "link": "https://twitter.com/andrej00004", "text": "twitter.com/andrej00004", "icon": "fab fa-twitter"}
+    ]
+  },
+  "careerSummary": "Hello! My name is Andrej and I am a pragmatic programmer/engineer with a strong passion for software architecture. More than fifteen years of experience working on different projects and technologies with different teams from all around the world gives me enough confidence to claim that I can tackle any technical challenge (in a rational time frame of course :) ), but also the awareness that I need to learn and contribute more. I have a master’s degree in software engineering and a strong background in product development, maintenance, publishing and monitoring, for industries like healthcare, leisure, travel & tourism, communications, e-commerce, etc. My main development experience until now was mostly designing and implementing scalable Web Applications and APIs using C#, AWS, Azure, SQL, NoSQL, and various UI JavaScript frameworks. Besides Web, I have also worked with wide variety of other languages and technologies oriented to developing phone or desktop applications, like WPF, Unity, Python etc. Overall, a passionate techie team player who likes diversity, discipline and good developer habits.",
+  "skills": {
+    "backend": [
+      {"name": "C#", "level": 98},
+      {"name": ".NET Core", "level": 95},
+      {"name": "ASP.NET MVC", "level": 96},
+      {"name": "WPF", "level": 77},
+      {"name": "Python", "level": 57}
+    ],
+    "frontend": [
+      {"name": "JavaScript", "level": 85},
+      {"name": "Angular", "level": 80},
+      {"name": "React", "level": 60},
+      {"name": "Typescript", "level": 77},
+      {"name": "HTML/CSS/SASS/LESS", "level": 86}
+    ],
+    "tools": [
+      {"name": "Visual Studio", "level": 98},
+      {"name": "Visual Studio Code", "level": 90},
+      {"name": "Jenkins", "level": 84},
+      {"name": "Git", "level": 92},
+      {"name": "Docker", "level": 62}
+    ],
+    "others": [
+      "DevOps", "Azure", "AWS", "EF / EF Core", "TDD", "MicroServices", "Serverless functions (Azure & AWS)", "SQS", "Kafka", "NATS", "ELK", "Grafana", "Vue.js", "ReactNative", "Microsoft SQL Server", "Postgresql", "Couchbase DB", "SQL", "Unity", "Code Review", "Scrum", "Kanban", "Jira", "Github"
+    ]
+  },
+  "certifications": [
+    {"title": "Programming in C#", "organization": "Microsoft", "period": "April 2014 - Current"},
+    {"title": "Developing ASP.NET MVC 4 Web Applications", "organization": "Microsoft", "period": "January 2014 - Current"},
+    {"title": "Programming in HTML5 with JavaScript and CSS3", "organization": "Microsoft", "period": "May 2013 - Current"},
+    {"title": "MCPS: Microsoft Certified Professional", "organization": "Microsoft", "period": "April 2013 - Current"},
+    {"title": "C# Expert", "organization": "Pluralsight IQ", "period": "April 2020 - Current"},
+    {"title": "ASP.NET Core Expert", "organization": "Pluralsight IQ", "period": "February 2020 - Current"},
+    {"title": "ASP.NET MVC 5 Expert", "organization": "Pluralsight IQ", "period": "January 2017 - Current"}
+  ],
+  "workExperience": [
+    {
+      "position": "Senior Software Engineer/Lead",
+      "company": "PowerDiary",
+      "period": "Jun 2020 - Current",
+      "description": "I'm working as a fully employed remote senior software engineer and lead. Mostly responsible for the team of four people introducing Scrum and improving, refactoring, and redesigning existing monolith healthcare system based in Australia.",
+      "achievements": [
+        "Lead the Web application and API migration from .NET 4.8 to .NET Core 5",
+        "Lead the transformation from Database first mindset to code first approach",
+        "Transform multiple MSSQL stored procedures to the C# (Linq, EFCore) code",
+        "Introduce EFCore 5.0 and automatic schema migrations",
+        "Introduce TDD",
+        "Improved monitoring and alerting using AWS CloudWatch logging infrastructure",
+        "Introduce scrum culture and practices (daily standup, two weeks sprint, planing, grooming, estimating)"
+      ],
+      "technologies": ["C#", "ASP NET Core API", "ASP NET MVC 5", "PostgresSQL", "MSSQL", "Entity Framework Core", "Entity Framework 6", "TeamCity", "AWS EC2", "AWS CloudWatch"]
+    },
+    {
+      "position": "Senior Software Engineer",
+      "company": "Dreamlines",
+      "period": "Dec 2018 - Apr 2020",
+      "description": "I was working as a remote/on-site freelance consultant mostly on improving, refactoring, and redesigning existing content API (ASP NET Core, Angular 8) used by the company website in more than 10 countries (world-wide). If you are wondering why I left the company, I would just say CORONA vs. cruising industry 1:0.",
+      "achievements": [
+        "Lead the API migration from .NET Core 1.1 to .NET Core 3.1",
+        "Improved speed and structure of unit and acceptance tests (more than 5000 test cases used to run for more than 30 minutes, after the optimization and refactoring, less than 10 minutes)",
+        "Lead creation of AI microservice project in Python for autonomous detection of cabins on deck images with the accuracy of more than 80% ",
+        "Improved monitoring and alerting of the system using ELK stack (reduced number of bugs in production for 17%)",
+        "Established a knowledge-sharing culture between company developers with regular bi-weekly 'show and tell' sessions "
+      ],
+      "technologies": ["C#", "ASP NET Core API", "Angular 8", "Typescript", "Python", "PostgresSQL", "Couchbase DB", "Entity Framework Core", "ELK", "Kafka", "SQS", "AWS", "Docker", "Jenkins"]
+    },
+    {
+      "position": "Senior Software Architect & Engineer",
+      "company": "Bilbayt",
+      "period": "Apr 2018 - Dec 2018",
+      "description": "In this six month contract period as an architect and software engineer, my main focus was on restructuring and updating the old monolith service-based catering e-commerce system to a cloud-oriented microservice system using CQRS architecture.",
+      "achievements": [
+        "First-time full remote position with a fully remote team from different parts of the world (Egypt, Spain, Kuwait, Germany, Croatia)",
+        "System transformation and migration from old ASP.NET Web Forms tech to ASP.NET MVC / API Core 2.0 tech stack hosted on Azure with the test coverage of more than 80%"
+      ],
+      "technologies": ["C#", "ASP.NET Web Forms", "ASP.NET MVC/API Core", "Angular", "Vue.js", "MSSQL database", "Entity Framework", "Azure", "Azure Functions", "Azure Service bus", "BenchmarkDotNet"]
+    },
+    {
+      "position": "Co-Founder & Lead Software Engineer",
+      "company": "Think'n'Dye",
+      "period": "Sep 2017 - Current",
+      "description": "Except for the architecture and setting up the ground algorithmic structure of the game written with C# scripts inside Unity, for the first time I was involved in project and product management as a product owner, communicating and deciding product features with the management board.",
+      "achievements": [],
+      "technologies": ["C#", "Unity", "Visual Studio team services"]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "Dreamlines",
+      "period": "Jul 2014 - Apr 2018",
+      "description": "I was hired by a small startup company that, at that point, had only 2 developers working on ASP.NET MVC 2 CRM (Customer-Relationship-Management) system, which was the most crucial product for company growth and business. My main responsibility was maintaining and updating the product with new features. After slightly more than 4 years, the company grows to more than 400 employees and is spreading the business to more than 10 countries all over the world. My CRM team grows from 3 to 20 developers split into 4 teams. Being part of that whole process made me grow as a developer on the same scale as a company.",
+      "achievements": [
+        "Transferring CRM product (in production for 4 years) from Azure to AWS cloud provider without losing any data and no downtime",
+        "Creating email marketing microservice for sending, tracking and building newsletter templates for more than hundred thousand customers, incorporating Sendgrid and Mailgun",
+        "Improved BI team work with a tool for integrating data from other entities acquired by the company and various other sources to our AWS Redshift Data Warehouse",
+        "As early pioneers of ASP.NET Core, we created customer facing website for displaying offers and handling payments with external providers and doing semi-direct booking"
+      ],
+      "technologies": ["C#", "ASP.NET MVC/API", "Angular", "JavaScript", "TypeScript", "MSSQL Databse", "Entity Framework", "PostgresSQL", "Azure", "AWS", "MailGun", "Sendgrind"]
+    },
+    {
+      "position": "Junior Software Engineer",
+      "company": "Clarity Consulting",
+      "period": "Jun 2012 - Jun 2014",
+      "description": "At my first job, I had a great opportunity to work for an USA consultant company from my home city Rijeka and learn from experienced colleagues how to be a professional software developer and how to incorporate my individual developer qualities into the team environment. During these two years, I had worked on projects for some very big companies like McDonald's, Mondelez, Microsoft LINQ and Clarity Connect, and learned lots of valuable practices and skills which I am still using today.",
+      "achievements": [],
+      "technologies": ["C#", "ASP.NET MVC", "WPF", "XAML", "JavaScript", "HTML/CSS", "MSSQL Database", "SQL"]
+    }
+  ],
+  "personalProjects": [
+    {
+      "position": "Founder And Software Engineer",
+      "company": "NSeed",
+      "period": "Jun 2019 - Current",
+      "description": "After many different projects in many different domains, one thing kept reapperaring: a need for creating and seeding data in a structured way. This is the idea behind NSeed, an intelligent open-source tool for data creation and seeding using CLI or Visual Studio Extension. I work on it together with my colleague and friend, an experienced programmer and software architect. Project is currently in its testing phase, for more information please visit nseed.io or github.com/nseedio.",
+      "technologies": ["C#", ".NET Core Tools", "CommandLineUtils", "Nuke", "PowerShell", "WSL2"]
+    },
+    {
+      "position": "User Group Co-Leader And Speaker",
+      "company": "Microsoft Developers User Group Rijeka, Croatia",
+      "period": "May 2018 - Current",
+      "description": "I joined the group five years ago as a tech enthusiast and two years ago I got the opportunity to become one of the co-organizers. The group is now counting more than 400 members and we usually organize one talk per month, where (an experienced) speaker is talking about some of the current tech topics (one of my talks, 'Progressive Web Applications: What, How, Why', you can find on the GitHub page mentioned below). You can contact us on meetup.com/Microsoft-Developer-User-Group-Rijeka or give us a star on our GitHub repository github.com/microsoft-developer-user-group-rijeka/predavanja.",
+      "technologies": []
+    }
+  ],
+  "education": [
+    {"degree": "MSc in Computer Science", "org": "Information and Communication Systems", "school": "University of Rijeka Croatia, Departments of Informatics", "period": "2010 - 2013"},
+    {"degree": "BSc in Computer Science", "org": "", "school": "University of Rijeka Croatia, Departments of Informatics", "period": "2007 - 2010"}
+  ],
+  "languages": [
+    {"name": "Croatian", "level": "Native"},
+    {"name": "English", "level": "Professional"},
+    {"name": "German", "level": "Basic"}
+  ],
+  "interests": ["Basketball", "Running", "SUP", "Cycling", "Reading"]
+}
