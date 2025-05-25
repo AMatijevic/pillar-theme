@@ -12,12 +12,12 @@
       {"platform": "twitter", "link": "https://twitter.com/andrej00004", "text": "twitter.com/andrej00004", "icon": "fab fa-twitter"}
     ]
   },
-  "careerSummary": "Hello! My name is Andrej and I am a pragmatic programmer/engineer with a strong passion for software architecture. More than fifteen years of experience working on different projects and technologies with different teams from all around the world gives me enough confidence to claim that I can tackle any technical challenge (in a rational time frame of course :) ), but also the awareness that I need to learn and contribute more. I have a master’s degree in software engineering and a strong background in product development, maintenance, publishing and monitoring, for industries like healthcare, leisure, travel & tourism, communications, e-commerce, etc. My main development experience until now was mostly designing and implementing scalable Web Applications and APIs using C#, AWS, Azure, SQL, NoSQL, and various UI JavaScript frameworks. Besides Web, I have also worked with wide variety of other languages and technologies oriented to developing phone or desktop applications, like WPF, Unity, Python etc. Overall, a passionate techie team player who likes diversity, discipline and good developer habits.",
+  "careerSummary": "Innovative and pragmatic Software Engineer with over 15 years of experience in designing and implementing scalable web applications and APIs. Holding a Master's degree in Software Engineering, I have led diverse, cross-functional teams across industries such as healthcare, travel, e-commerce, and communications. Proficient in C#, AWS, Azure, SQL, NoSQL, and modern JavaScript frameworks, I have a strong foundation in full-stack development.\n\nRecently, my focus has shifted towards Artificial Intelligence and autonomous agents 🤖, where I am exploring the integration of AI-driven solutions into existing architectures. My passion lies in continuous learning and applying cutting-edge technologies to solve complex problems. I thrive in collaborative environments that value diversity, discipline, and best development practices.",
   "skills": {
     "backend": [
       {"name": "C#", "level": 98},
       {"name": ".NET Core", "level": 95},
-      {"name": "ASP.NET MVC", "level": 96},
+      {"name": "ASP.NET", "level": 96},
       {"name": "WPF", "level": 77},
       {"name": "Python", "level": 57}
     ],
@@ -50,10 +50,22 @@
   ],
   "workExperience": [
     {
+      "position": "Senior Software Engineer",
+      "company": "LichtBlick SE",
+      "period": "Aug 2021 - Current",
+      "description": "Currently working as a Senior Software Engineer at LichtBlick SE, contributing to the development and maintenance of energy and sustainability solutions. Responsible for backend and cloud architecture, code quality, and supporting digital transformation initiatives. (Details can be updated with more specifics if provided.)",
+      "achievements": [
+        "Contributed to the modernization of core backend systems",
+        "Supported cloud migration and DevOps initiatives",
+        "Collaborated with cross-functional teams to deliver scalable solutions"
+      ],
+      "technologies": ["C#", ".NET Core", "Azure", "AWS", "Microservices", "DevOps", "SQL"]
+    },
+    {
       "position": "Senior Software Engineer/Lead",
       "company": "PowerDiary",
-      "period": "Jun 2020 - Current",
-      "description": "I'm working as a fully employed remote senior software engineer and lead. Mostly responsible for the team of four people introducing Scrum and improving, refactoring, and redesigning existing monolith healthcare system based in Australia.",
+      "period": "Jun 2020 - Aug 2021",
+      "description": "I was working as a fully employed remote senior software engineer and lead. Mostly responsible for the team of four people introducing Scrum and improving, refactoring, and redesigning existing monolith healthcare system based in Australia.",
       "achievements": [
         "Lead the Web application and API migration from .NET 4.8 to .NET Core 5",
         "Lead the transformation from Database first mindset to code first approach",
